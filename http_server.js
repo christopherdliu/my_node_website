@@ -2,7 +2,7 @@ var http = require('http');
 var dt = require('./my_first_module')
 var fs = require('fs');
 
-const port = 3000;
+const port = 80;
 
 const server = http.createServer((req, res) => {
 	fs.readFile('index.html', function(err, data) {
